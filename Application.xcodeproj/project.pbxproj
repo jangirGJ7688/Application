@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B474B77B2F00288600CA7AE0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B474B77A2F00288600CA7AE0 /* SDWebImage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B474B7552F00182D00CA7AE0 /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B474B77B2F00288600CA7AE0 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = Application;
 			packageProductDependencies = (
+				B474B77A2F00288600CA7AE0 /* SDWebImage */,
 			);
 			productName = Application;
 			productReference = B474B7552F00182D00CA7AE0 /* Application.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = B474B74C2F00182D00CA7AE0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B474B7792F00288600CA7AE0 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B474B7562F00182D00CA7AE0 /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B474B7792F00288600CA7AE0 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B474B77A2F00288600CA7AE0 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B474B7792F00288600CA7AE0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B474B74D2F00182D00CA7AE0 /* Project object */;
 }
